@@ -45,7 +45,7 @@ const PhasesSection = () => {
             <div className="phase-card__number">{phase.id}</div>
             <img src={phaseImages[phase.id]} alt={phase.title} className="phase-card__img" />
 
-            {/* Arrow connector (except after last card) */}
+            
             {index < data.items.length - 1 && (
               <div className="phase-card__arrow">→</div>
             )}
