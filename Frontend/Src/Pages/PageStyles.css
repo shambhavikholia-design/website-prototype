@@ -1,4 +1,4 @@
-/* Global reset & base styles for all pages */
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -12,20 +12,19 @@ body {
   line-height: 1.6;
 }
 
-/* Smooth scroll */
+
 html { scroll-behavior: smooth; }
 
-/* Utility: container */
 .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 2.5rem;
 }
 
-/* Remove default button styles */
+
 button { font-family: inherit; }
 
-/* Page transition fade */
+
 main > * {
   animation: pageFade 0.3s ease;
 }
