@@ -18,7 +18,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
         <div className="footer__col">
           <h4 className="footer__col-title">Quick Links</h4>
           <ul className="footer__col-links">
@@ -30,7 +29,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact */}
+      
         <div className="footer__col">
           <h4 className="footer__col-title">Contact</h4>
           <p>info@mdrconnects.com</p>
@@ -39,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Bar */}
+   
       <div className="footer__bottom">
         <p>© {new Date().getFullYear()} MDRConnects. All rights reserved.</p>
       </div>
