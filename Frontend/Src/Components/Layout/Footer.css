@@ -14,7 +14,6 @@
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
-/* Brand */
 .footer__logo {
   font-size: 1.5rem;
   font-weight: 800;
@@ -38,7 +37,7 @@
   max-width: 300px;
 }
 
-/* Columns */
+
 .footer__col-title {
   font-size: 0.8rem;
   font-weight: 700;
@@ -68,7 +67,7 @@
 
 .footer__col-links a:hover { color: #00b4a2; }
 
-/* Bottom */
+
 .footer__bottom {
   text-align: center;
   padding: 1rem 0;
