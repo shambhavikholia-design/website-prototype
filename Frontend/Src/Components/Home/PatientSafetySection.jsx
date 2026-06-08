@@ -31,7 +31,7 @@ const PatientSafetySection = () => {
 
   return (
     <>
-      {/* Patient Safety Section */}
+     
       <section className="safety">
         <div className="safety__left">
           <p className="safety__heading">{safety.heading}</p>
@@ -57,7 +57,7 @@ const PatientSafetySection = () => {
         </div>
       </section>
 
-      {/* Stats Bar */}
+   
       {stats && (
         <div className="stats-bar">
           {stats.map((stat, i) => (
