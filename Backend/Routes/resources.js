@@ -2,12 +2,12 @@ const express = require('express');
 const router = express.Router();
 const otherData = require('../Data/otherData');
 
-// GET /api/resources — returns all resources
+
 router.get('/', (req, res) => {
   res.json({ success: true, data: otherData.resources });
 });
 
-// GET /api/resources/:category — returns resources by category
+
 router.get('/:category', (req, res) => {
   const { category } = req.params;
   const found = otherData.resources.categories.find(
