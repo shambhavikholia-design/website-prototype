@@ -1,0 +1,85 @@
+.flow {
+  background: #f5f8fa;
+  padding: 4rem 2.5rem;
+}
+
+.flow__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.flow__title {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #0b2545;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.flow__track {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.flow__step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 110px;
+}
+
+.flow__step-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1.5px solid #c8dae8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0b2545;
+  margin-bottom: 0.6rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.flow__step:hover .flow__step-icon {
+  border-color: #00b4a2;
+  transform: scale(1.08);
+}
+
+.flow__step-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #0b2545;
+  margin: 0 0 0.2rem;
+}
+
+.flow__step-desc {
+  font-size: 0.65rem;
+  color: #888;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.flow__step-arrow {
+  position: absolute;
+  right: -16px;
+  top: 17px;
+  color: #0b2545;
+  font-size: 1rem;
+  font-weight: 300;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .flow__track     { gap: 1.5rem; }
+  .flow__step      { width: 80px; }
+  .flow__step-arrow { display: none; }
+}
