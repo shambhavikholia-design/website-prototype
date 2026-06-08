@@ -6,16 +6,16 @@ import PatientSafetySection from '../Components/Home/PatientSafetySection';
 const Home = () => {
   return (
     <>
-      {/* Section 1: Big hero banner */}
+      {/* Section 1 */}
       <HeroSection />
 
-      {/* Section 2: The 4 phases cards */}
+      {/* Section 2 */}
       <PhasesSection />
 
-      {/* Section 3: Instrument flow track */}
+      {/* Section 3*/}
       <FlowSection />
 
-      {/* Section 4: Patient safety + stats bar */}
+      {/* Section 4 */}
       <PatientSafetySection />
     </>
   );
