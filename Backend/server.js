@@ -10,18 +10,17 @@ const standardsRoutes = require('./Routes/standards');
 const app = express();
 const PORT = 5000;
 
-// Middleware
+
 app.use(cors());
 app.use(express.json());
 
-// Routes
+
 app.use('/api/home', homeRoutes);
 app.use('/api/about', aboutRoutes);
 app.use('/api/contact', contactRoutes);
 app.use('/api/resources', resourcesRoutes);
 app.use('/api/standards', standardsRoutes);
 
-// Health check
 app.get('/', (req, res) => {
   res.json({ message: 'MDRConnects API is running!', status: 'OK' });
 });
