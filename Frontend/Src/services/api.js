@@ -1,7 +1,7 @@
-// Base URL — change this to your deployed backend URL in production
+// Base URL — change this to your deployed backend URL
 const BASE_URL = 'https://hl6vgwrr-5000.inc1.devtunnels.ms/api';
 
-// ─── Helper ───────────────────────────────────────────────────────────────────
+
 const fetchData = async (endpoint) => {
   try {
     const response = await fetch(`${BASE_URL}${endpoint}`);
@@ -14,7 +14,7 @@ const fetchData = async (endpoint) => {
   }
 };
 
-// ─── Home Page APIs ───────────────────────────────────────────────────────────
+
 export const getHomeData       = () => fetchData('/home');
 export const getHeroData       = () => fetchData('/home/hero');
 export const getPhasesData     = () => fetchData('/home/phases');
@@ -22,13 +22,13 @@ export const getFlowData       = () => fetchData('/home/flow');
 export const getPatientSafety  = () => fetchData('/home/patient-safety');
 export const getStatsData      = () => fetchData('/home/stats');
 
-// ─── Other Page APIs ──────────────────────────────────────────────────────────
+
 export const getAboutData      = () => fetchData('/about');
 export const getResourcesData  = () => fetchData('/resources');
 export const getStandardsData  = () => fetchData('/standards');
 export const getContactData    = () => fetchData('/contact');
 
-// ─── Contact Form Submission ──────────────────────────────────────────────────
+
 export const submitContactForm = async (formData) => {
   try {
     const response = await fetch(`${BASE_URL}/contact/submit`, {
