@@ -11,10 +11,10 @@ import './Pages/PageStyles.css';
 function App() {
   return (
     <Router>
-      {/* Navbar is always visible on every page */}
+     
       <Navbar />
 
-      {/* Main content area — each route renders its Page component here */}
+   
       <main>
         <Routes>
           <Route path="/"           element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
         </Routes>
       </main>
 
-      {/* Footer is always visible on every page */}
+      
       <Footer />
     </Router>
   );
