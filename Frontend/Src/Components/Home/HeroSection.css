@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-/* Decorative background pattern */
+
 .hero::before {
   content: '';
   position: absolute;
@@ -83,7 +83,6 @@
   transform: translateY(-2px);
 }
 
-/* Loading */
 .hero--loading {
   min-height: 520px;
   display: flex;
