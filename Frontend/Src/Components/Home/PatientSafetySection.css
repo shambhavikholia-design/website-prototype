@@ -1,4 +1,4 @@
-/* ── Patient Safety Section ─────────────────────────────────── */
+
 .safety {
   background: #0b2545;
   color: #fff;
@@ -11,7 +11,7 @@
   overflow: hidden;
 }
 
-/* ECG heartbeat line in background */
+
 .safety::before {
   content: '';
   position: absolute;
@@ -70,7 +70,6 @@
 
 .safety__cta:hover { background: #009e8e; }
 
-/* ── Shield with photo ───────────────────────────────────────── */
 .safety__shield {
   width: 220px;
   height: 260px;
@@ -98,7 +97,7 @@
   z-index: 1;
 }
 
-/* ── Feature list ────────────────────────────────────────────── */
+
 .safety__features { display: flex; flex-direction: column; gap: 1.5rem; }
 
 .safety__feature {
@@ -127,7 +126,7 @@
   margin: 0;
 }
 
-/* ── Stats Bar ───────────────────────────────────────────────── */
+
 .stats-bar {
   background: #ffffff;
   display: flex;
@@ -167,7 +166,7 @@
   margin: 0;
 }
 
-/* ── Responsive ──────────────────────────────────────────────── */
+
 @media (max-width: 900px) {
   .safety {
     grid-template-columns: 1fr;
