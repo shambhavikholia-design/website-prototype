@@ -1,5 +1,4 @@
-// AboutUs page — placeholder as instructed
-// To expand: import { getAboutData } from '../services/api' and render the data
+
 
 const AboutUs = () => {
   return (
